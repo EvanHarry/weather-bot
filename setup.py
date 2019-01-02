@@ -17,4 +17,10 @@ setup(
         [console_scripts]
         weather-bot=weather.scripts:cli
     ''',
+    extras_require={
+        'test': [
+            'pytest',
+            'coverage',
+        ],
+    },
 )
